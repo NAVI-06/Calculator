@@ -2,49 +2,84 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <!-- Ensures the document is displayed with the correct character encoding -->
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Provides compatibility with Internet Explorer -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Ensures the page is rendered correctly on different devices -->
+
     <link rel="stylesheet" href="same.css" />
+    <!-- Links an external CSS file for styling -->
+
     <title>Calculator - By Code Traversal</title>
+    <!-- Sets the title of the webpage -->
   </head>
   <body>
     <div class="container">
+      <!-- Main container for the calculator -->
+      
       <div class="calculator">
+        <!-- Calculator container -->
+
         <input type="text" id="inputBox" placeholder="0" />
+        <!-- Input box for displaying numbers and results -->
+
         <div>
+          <!-- Row of operator buttons -->
           <button class="button operator">AC</button>
+          <!-- Clear all button -->
           <button class="button operator">DEL</button>
+          <!-- Delete last entry button -->
           <button class="button operator">%</button>
+          <!-- Modulus operator button -->
           <button class="button operator">/</button>
+          <!-- Division operator button -->
         </div>
+
         <div>
+          <!-- Row of number buttons and multiplication operator -->
           <button class="button">7</button>
           <button class="button">8</button>
           <button class="button">9</button>
           <button class="button operator">*</button>
+          <!-- Multiplication operator button -->
         </div>
+
         <div>
+          <!-- Row of number buttons and subtraction operator -->
           <button class="button">4</button>
           <button class="button">5</button>
           <button class="button">6</button>
           <button class="button operator">-</button>
+          <!-- Subtraction operator button -->
         </div>
+
         <div>
+          <!-- Row of number buttons and addition operator -->
           <button class="button">1</button>
           <button class="button">2</button>
           <button class="button">3</button>
           <button class="button operator">+</button>
+          <!-- Addition operator button -->
         </div>
 
         <div>
+          <!-- Row of special buttons including double zero, zero, decimal point, and equals -->
           <button class="button">00</button>
+          <!-- Double zero button -->
           <button class="button">0</button>
+          <!-- Zero button -->
           <button class="button">.</button>
+          <!-- Decimal point button -->
           <button class="button equalBtn">=</button>
+          <!-- Equals button to compute the result -->
         </div>
       </div>
     </div>
 
     <script src="style.js"></script>
+    <!-- Links an external JavaScript file for functionality -->
   </body>
 </html>
