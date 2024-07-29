@@ -1,4 +1,4 @@
-# Calculator
+# Basic Calculator
 Basic Calculator
 Overview
 
