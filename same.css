@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* Importing the Poppins font from Google Fonts */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+/* Resetting margin and padding for all elements, setting the box-sizing to border-box, and applying the Poppins font to all text */
 
-body{
+body {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -15,34 +17,37 @@ body{
     align-items: center;
     background: linear-gradient(45deg, #0a0a0a, #483a52);
 }
+/* Setting the body to fill the entire viewport, using flexbox to center the content, and applying a linear gradient background */
 
-.calculator{
+.calculator {
     border: 1px solid #717377;
     padding: 20px;
     border-radius: 16px;
     background: transparent;
     box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
-
 }
+/* Styling the calculator container with a border, padding, rounded corners, transparent background, and a shadow */
 
-input{
+input {
     width: 320px;
     border: none;
     padding: 24px;
     margin: 10px;
     background: transparent;
-    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
+    box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1);
     font-size: 40px;
     text-align: right;
     cursor: pointer;
     color: #ffffff;
 }
+/* Styling the input field with width, no border, padding, margin, transparent background, shadow, large font size, right-aligned text, pointer cursor, and white text color */
 
-input::placeholder{
+input::placeholder {
     color: #ffffff;
 }
+/* Setting the placeholder text color to white */
 
-button{
+button {
     border: none;
     width: 60px;
     height: 60px;
@@ -54,11 +59,14 @@ button{
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
     cursor: pointer;
 }
+/* Styling the buttons with no border, specific width and height, margin, circular shape, transparent background, white text color, font size, shadow, and pointer cursor */
 
-.equalBtn{
+.equalBtn {
     background-color: #70fb14;
 }
+/* Styling the equals button with a green background color */
 
-.operator{
+.operator {
     color: #2cee0a;
 }
+/* Styling the operator buttons with a green text color */
